@@ -6,7 +6,7 @@
   {{#each model as |book|}}
     <li class="list-group-item">
       <h3>{{book.title}}</h3> 
-      {{# if viewMore}}
+      {{# if showDetails}}
       <li class="book-item">author: {{book.author}}</li>
       <li class="book-item">description: {{book.description}}</li>
       {{/if}}
