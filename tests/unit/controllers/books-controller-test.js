@@ -21,6 +21,6 @@ describeModule(
     it('has an action, viewMore, that sets the viewMore property to when triggered', function() {
       let controller = this.subject();    
       controller.send('viewMore');
-      expect(controller.get('viewMore')).to.be.true;
+      expect(controller.get('showDetails')).to.be.true;
     });
   });
