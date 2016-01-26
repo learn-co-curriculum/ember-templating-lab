@@ -1,0 +1,19 @@
+<div class="container col-md-8 col-md-offset-2">
+  
+  <button class="btn btn-info"{{action 'viewMore'}}>View Book Details</button>
+  <br>
+  <ul class="list-group">
+  {{#each model as |book|}}
+    <li class="list-group-item">
+      <h3>{{book.title}}</h3> 
+      {{# if viewMore}}
+      <li class="book-item">author: {{book.author}}</li>
+      <li class="book-item">description: {{book.description}}</li>
+      {{/if}}
+    </li>
+  {{/each}}
+  </ul>
+</div>
+
+
+   
