@@ -70,3 +70,5 @@ Good job!
 
 
 
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ember-templating-lab' title='Ember Templating Lab: Flatiron Book Store'>Ember Templating Lab: Flatiron Book Store</a> on Learn.co and start learning to code for free.</p>
